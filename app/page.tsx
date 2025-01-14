@@ -5,6 +5,7 @@ import Particles from "./components/particles";
 const navigation = [
   { name: "About", href: "/about" },
   { name: "Projects", href: "/projects" },
+  { name: "Skills", href: "/skills" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -45,7 +46,7 @@ export default function Home() {
             className="underline duration-500 hover:text-zinc-300"
           >
             Next.js
-          </Link> enables to create high-quality web applications with the power of React components..
+          </Link> enables to create high-quality web applications with the power of React components.
         </h2>
       </div>
     </div>
