@@ -9,14 +9,58 @@ export default function Example() {
     <div className="relative pb-16">
     <Navigation />
     <div className="px-6 pt-20 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
-      <div className="max-w-2xl mx-auto lg:mx-0">
+      <div className="mx-auto lg:mx-0">
         <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
-          About
+          About Me
         </h2>
-        <p className="mt-4 text-zinc-400">
-        I'm Hamayoun Bhatti, a passionate Web Developer. With 2 Years Of experience in this field, I'm driven by a relentless pursuit of excellence. I thrive on challenges and am inspired by the potential to solve problems, innovate, and create meaningful solutions, and my work reflects my dedication to contribute to sustainable design solutions that benefit society. Explore my portfolio to see how I bring creativity and expertise to every project. Let's connect and collaborate to make great things happen!
-        </p>
-      </div>
+        <div className="flex flex-col items-center justify-center min-h-screen space-y-6 lg:flex-row lg:space-y-0 lg:space-x-6">
+  {/* Image Section */}
+  <img
+    src="/hamayoun.png"
+    alt="Hamayoun Bhatti"
+    className="w-[520px] h-[520px] rounded-full shadow-lg"
+  />
+
+  {/* Content Section */}
+  <div className="flex flex-col justify-between w-full">
+    {/* Description Section */}
+    <div className="lg:w-2/3 text-zinc-400 space-y-4 ml-8">
+      <p>
+        I'm Hamayoun Bhatti, a passionate Web Developer with 3+ years of experience in the field. I specialize as a Laravel Developer and Next.js Developer, combining back-end and front-end expertise to create dynamic, efficient, and user-friendly web solutions.
+      </p>
+      <p>
+        Driven by a relentless pursuit of excellence, I thrive on challenges and am inspired by the potential to solve problems, innovate, and create meaningful solutions. I'm constantly learning and exploring new technologies to stay at the forefront of web development.
+      </p>
+      <p>
+        My work reflects my dedication to sustainable design solutions that benefit society. Explore my portfolio to see how I bring creativity and expertise to every project. Let's connect and collaborate to make great things happen!
+      </p>
+    </div>
+
+    {/* Personal Details Section */}
+    <div className="lg:w-1/3 text-zinc-400 space-y-2">
+      <h2 className="text-lg font-semibold text-zinc-300 mb-4 mt-4 ml-8">Personal Details</h2>
+      <ul className="ml-8">
+        <li><strong>Name:</strong> Hamayoun Bhatti</li>
+        <li><strong>Date of Birth:</strong> May 10, 1998</li>
+        <li><strong>Address:</strong> Township Lahore</li>
+        <li><strong>Zip Code:</strong> 54000</li>
+        <li>
+          <strong>Email:</strong>  
+          <a href="mailto:hamayounbhatti59@gmail.com" className="text-blue-400 hover:underline">
+            hamayounbhatti59@gmail.com
+          </a>
+        </li>
+        <li>
+          <strong>Phone:</strong> 
+          <a href="tel:+923077529404" className="text-blue-400 hover:underline">
+            +92-307-7529404
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
       <div className="w-full h-px bg-zinc-800" />
     </div>
   </div>
