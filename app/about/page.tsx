@@ -46,14 +46,14 @@ export default function Example() {
         <li><strong>Zip Code:</strong> 54000</li>
         <li>
           <strong>Email:</strong>  
-          <a href="mailto:hamayounbhatti59@gmail.com" className="text-blue-400 hover:underline">
-            hamayounbhatti59@gmail.com
+          <a href="mailto:hamayounzaheer786@gmail.com" className="text-blue-400 hover:underline">
+            hamayounzaheer786@gmail.com
           </a>
         </li>
         <li>
           <strong>Phone:</strong> 
-          <a href="tel:+923077529404" className="text-blue-400 hover:underline">
-            +92-307-7529404
+          <a href="tel:+923394111529" className="text-blue-400 hover:underline">
+            +92-339-4111529
           </a>
         </li>
       </ul>
