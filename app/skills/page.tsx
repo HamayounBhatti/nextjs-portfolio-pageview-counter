@@ -22,24 +22,42 @@ export default function Example() {
                     />
 
                     {/* Skills Section */}
-                    <div className="flex flex-wrap justify-center w-full space-y-4 lg:space-y-0 lg:space-x-4">
-                        <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center">
+                    <div className="flex flex-wrap justify-center w-full space-y-4  lg:space-x-4">
+                        <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center mt-4 ml-3">
                             <h3 className="text-lg font-semibold text-zinc-100">Laravel</h3>
-                        </div><div>,</div>
+                        </div>
                         <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center">
                             <h3 className="text-lg font-semibold text-zinc-100">Next.js</h3>
                         </div>
                         <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center">
                             <h3 className="text-lg font-semibold text-zinc-100">JavaScript</h3>
                         </div>
-                        <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center mt-2">
+                        <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center">
                             <h3 className="text-lg font-semibold text-zinc-100">React</h3>
                         </div>
-                        <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center mt-2">
+                        <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center">
                             <h3 className="text-lg font-semibold text-zinc-100">Node.js</h3>
                         </div>
-                        <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center mt-2">
+                        <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center">
                             <h3 className="text-lg font-semibold text-zinc-100">HTML & CSS</h3>
+                        </div>
+                        <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center">
+                            <h3 className="text-lg font-semibold text-zinc-100">Bootstrap</h3>
+                        </div>
+                        <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center">
+                            <h3 className="text-lg font-semibold text-zinc-100">Taiwind CSS</h3>
+                        </div>
+                        <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center">
+                            <h3 className="text-lg font-semibold text-zinc-100">JQuery</h3>
+                        </div>
+                        <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center">
+                            <h3 className="text-lg font-semibold text-zinc-100">TypeScript</h3>
+                        </div>
+                        <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center">
+                            <h3 className="text-lg font-semibold text-zinc-100">Git</h3>
+                        </div>                        
+                        <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center">
+                            <h3 className="text-lg font-semibold text-zinc-100">RestApi</h3>
                         </div>
                     </div>
                 </div>
