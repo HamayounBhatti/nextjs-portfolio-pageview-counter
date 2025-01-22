@@ -16,9 +16,9 @@ export default function Example() {
         <div className="flex flex-col items-center justify-center min-h-screen space-y-6 lg:flex-row lg:space-y-0 lg:space-x-6">
   {/* Image Section */}
   <img
-    src="/hamayoun.png"
+    src="/hamayoun_about.png"
     alt="Hamayoun Bhatti"
-    className="w-[520px] h-[520px] rounded-full shadow-lg"
+    className="w-[520px] h-[650px] rounded-full shadow-lg"
   />
 
   {/* Content Section */}
