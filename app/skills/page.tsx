@@ -57,7 +57,16 @@ export default function Example() {
                             <h3 className="text-lg font-semibold text-zinc-100">Git</h3>
                         </div>                        
                         <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center">
-                            <h3 className="text-lg font-semibold text-zinc-100">RestApi</h3>
+                            <h3 className="text-lg font-semibold text-zinc-100">RestAPI</h3>
+                        </div>
+                        <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center">
+                            <h3 className="text-lg font-semibold text-zinc-100">FastAPI</h3>
+                        </div>
+                        <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center">
+                            <h3 className="text-lg font-semibold text-zinc-100">Python</h3>
+                        </div>
+                        <div className="p-6 bg-zinc-800 rounded-lg shadow-lg w-[200px] text-center">
+                            <h3 className="text-lg font-semibold text-zinc-100">Poetry</h3>
                         </div>
                     </div>
                 </div>
