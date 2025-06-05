@@ -24,7 +24,7 @@ const projects = [
   },
   {
     slug: "claim_utility",
-    title: "Urbansole Claim Utility",
+    title: "Urbansole Claim Utility ",
     description: "A Laravel-based claim management system designed for UrbanSole to streamline the shoe claim process. Shops can create claims, which are reviewed by QA to determine if they are claimable, repairable, or rejected. Approved claims are forwarded to the respective distribution centers for processing. The system features complete CRUD operations, role-based access control, claim settlement reports, and a structured workflow for efficient tracking. Built with Laravel and JavaScript, it ensures seamless claim handling from start to finish.",
     date: "2025-01-21",
     image: "/urbansole-claim-utility.png",
