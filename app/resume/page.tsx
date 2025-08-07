@@ -26,7 +26,7 @@ export default function ResumePage() {
           </div>
           <div className="shrink-0">
             <img
-              src="/hamayoun_resume.png"
+              src="/hamayoun_resume.PNG"
               alt="Hamayoun Bhatti"
               className="w-[100px] h-[200px] object-cover object-top rounded-t-none rounded-b-full shadow-lg mx-auto sm:mx-0"
             />
