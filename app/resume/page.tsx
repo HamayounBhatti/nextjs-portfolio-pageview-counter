@@ -23,18 +23,7 @@ export default function ResumePage() {
             >
               Portfolio : https://hamayounbhatti.vercel.app
             </a>
-          </div>
-          <div className="shrink-0">
-            <img
-              src="/hamayoun_resume.PNG"
-              alt="Hamayoun Bhatti"
-              className="w-[100px] h-[200px] object-cover object-top rounded-t-none rounded-b-full shadow-lg mx-auto sm:mx-0"
-            />
-          </div>
-        </header>
-
-        <section className="mb-6">
-          <h2 className="text-xl font-semibold border-b border-gray-700 pb-1 mb-2">Profile</h2>
+        <h2 className="text-xl font-semibold border-b border-gray-700 pb-1 mb-2 mt-4">Profile</h2>
           <p>
             I'm Hamayoun Bhatti, a passionate Web Developer with 3+ years of experience. I specialize in Laravel and Next.js,
             combining back-end and front-end skills to build dynamic, efficient, and user-friendly solutions.
@@ -43,6 +32,18 @@ export default function ResumePage() {
             I thrive on challenges and constantly explore new technologies. My goal is to create meaningful digital solutions
             that are both functional and impactful.
           </p>
+          </div>
+          <div className="shrink-0">
+            <img
+              src="/hamayoun_resume.PNG"
+              alt="Hamayoun Bhatti"
+              className="w-[300px] h-[400px] object-cover object-top rounded-t-none rounded-b-full shadow-lg mx-auto sm:mx-0"
+            />
+          </div>
+        </header>
+
+        <section className="mb-6">
+
         </section>
 
         <section className="mb-6">
