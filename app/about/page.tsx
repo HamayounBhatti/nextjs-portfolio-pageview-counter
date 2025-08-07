@@ -57,6 +57,16 @@ export default function Example() {
           </a>
         </li>
       </ul>
+       {/* Download CV Button */}
+  <div className="ml-8 mt-4">
+    <a
+      href="/Hamayoun_bhatti.pdf"
+      download
+      className="inline-block px-6 py-2 mt-2 text-sm font-medium text-white bg-blue-600 rounded hover:bg-blue-700 transition"
+    >
+      Download CV
+    </a>
+  </div>
     </div>
   </div>
 </div>
