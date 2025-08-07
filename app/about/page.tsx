@@ -58,11 +58,11 @@ export default function Example() {
         </li>
       </ul>
        {/* Download CV Button */}
-  <div className="ml-8 mt-4">
+  <div className="ml-24 mt-4">
     <a
-      href="/Hamayoun_bhatti.pdf"
+      href="/resume/Hamayoun_bhatti.pdf"
       download
-      className="inline-block px-6 py-2 mt-2 text-sm font-medium text-white bg-blue-600 rounded hover:bg-blue-700 transition"
+      className="inline-block px-6 py-2 mt-2 text-sm font-medium text-black bg-white rounded hover:bg-zinc-700 hover:text-white transition"
     >
       Download CV
     </a>
