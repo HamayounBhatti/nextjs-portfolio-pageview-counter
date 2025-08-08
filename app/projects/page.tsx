@@ -30,6 +30,14 @@ const projects = [
     image: "/urbansole-claim-utility.png",
     technologies: ["PHP", "Laravel", "CSS", "Bootstrap", "Javascript", "jQuery"],
   },
+    {
+    slug: "asaan_fbr",
+    title: "Asaan FBR",
+    description: "Asaan FBR – A PRAL-integrated digital invoicing platform for businesses in Pakistan, built to comply with FBR e-invoicing regulations. I contributed to the frontend development, focusing on creating a user-friendly interface, smooth navigation, and responsive layouts for real-time invoice tracking and compliance management.",
+    date: "2025-07-24",
+    image: "/asaan_fbr.png",
+    technologies: ["HTML","CSS","Javascript"],
+  },
 ];
 
 export default function ProjectsPage() {
