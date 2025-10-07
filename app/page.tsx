@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
+import Chatbot from "./components/Chatbot"; // ✅ Import chatbot
 
 const navigation = [
   { name: "About", href: "/about" },
@@ -50,7 +51,10 @@ export default function Home() {
           </Link> enables to create high-quality web applications with the power of React components.
         </h2>
       </div>
+       {/* ✅ Chatbot component */}
+      <Chatbot />
     </div>
+    
   );
 
 }

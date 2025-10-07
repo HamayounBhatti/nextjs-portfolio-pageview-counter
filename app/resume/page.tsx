@@ -129,6 +129,7 @@ export default function ResumePage() {
         </div>
       </div>
     </main>
+          <div className="w-full h-px bg-zinc-800" />
     </div>
   );
 }
