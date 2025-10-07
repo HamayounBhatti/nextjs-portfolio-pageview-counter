@@ -52,7 +52,7 @@ export default function Example() {
         </li>
         <li>
           <strong>Phone:</strong> 
-          <a href="tel:+923394111529" className="text-blue-400 hover:underline">
+          <a href="tel:+923077529404" className="text-blue-400 hover:underline">
             +92-339-4111529
           </a>
         </li>
@@ -72,6 +72,7 @@ export default function Example() {
 </div>
 </div>
       <div className="w-full h-px bg-zinc-800" />
+      
     </div>
   </div>
   	);
