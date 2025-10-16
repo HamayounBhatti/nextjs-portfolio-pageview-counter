@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
+import Chatbot from "../components/Chatbot";
 
 export default function ResumePage() {
   return (
@@ -130,6 +131,7 @@ export default function ResumePage() {
       </div>
     </main>
           <div className="w-full h-px bg-zinc-800" />
+          <Chatbot />
     </div>
   );
 }

@@ -3,6 +3,7 @@ import { Github, Mail, Linkedin, Facebook, Instagram, Contact } from "lucide-rea
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
+import Chatbot from "../components/Chatbot";
 
 const socials = [
 	{
@@ -107,7 +108,7 @@ export default function Example() {
 					))}
 				</div>
 			</div>
-			
+			<Chatbot />
 		</div>
 		
 		

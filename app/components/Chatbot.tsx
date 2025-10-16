@@ -45,9 +45,13 @@ export default function Chatbot() {
       {/* Chatbot Toggle Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-6 right-6 z-50 p-4 rounded-full bg-zinc-700 text-white shadow-lg hover:bg-zinc-800 transition"
+        className="fixed bottom-6 right-6 z-50 p-3 rounded-full shadow-lg hover:scale-105 transition transform"
       >
-        💬
+        <img
+          src="/chatbot.png"
+          alt="Chatbot"
+          className="w-10 h-10"
+        />
       </button>
 
       {/* Chat Popup */}
@@ -65,11 +69,10 @@ export default function Chatbot() {
             {messages.map((msg, idx) => (
               <div
                 key={idx}
-                className={`p-2 rounded-lg max-w-[80%] ${
-                  msg.role === "user"
+                className={`p-2 rounded-lg max-w-[80%] ${msg.role === "user"
                     ? "ml-auto bg-zinc-700 text-white"
                     : "mr-auto bg-zinc-800 text-zinc-200"
-                }`}
+                  }`}
               >
                 {msg.content}
               </div>

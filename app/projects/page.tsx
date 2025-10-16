@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
+import Chatbot from "../components/Chatbot";
 
 export const revalidate = 60;
 
@@ -109,6 +110,7 @@ export default function ProjectsPage() {
           ))}
         </div>
       </div>
+      <Chatbot />
     </div>
   );
 }
