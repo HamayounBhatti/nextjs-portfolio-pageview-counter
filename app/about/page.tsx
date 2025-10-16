@@ -2,6 +2,7 @@
 import { Github, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
+import Chatbot from "../components/Chatbot";
 import { Card } from "../components/card";
 
 export default function Example() {
@@ -74,6 +75,7 @@ export default function Example() {
       <div className="w-full h-px bg-zinc-800" />
       
     </div>
+    <Chatbot />
   </div>
   	);
 }
