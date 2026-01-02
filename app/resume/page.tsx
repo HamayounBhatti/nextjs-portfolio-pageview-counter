@@ -14,7 +14,7 @@ export default function ResumePage() {
           <div className="flex-1">
             <h1 className="text-3xl font-bold mt-4">Muhammad Hamayoun Zaheer Bhatti</h1>
             <p className="text-sm text-gray-300 mt-4">Software Engineer</p>
-            <p className="mt-4">House#529-2-D1, Township, Lahore, Pakistan</p>
+            <p className="mt-4">House Number 529 Sector 2 Block D1, Township, Lahore, Pakistan</p>
             <p className="mt-4 mb-4">📞 0307-7529404 | 📧 hamayounzaheer786@gmail.com</p>
             <a
               href="https://hamayounbhatti.vercel.app"
@@ -64,18 +64,18 @@ export default function ResumePage() {
           <ul className="space-y-3 text-sm">
             <li>
               <strong>Software Engineer / Team Lead</strong><br />
-              Xconsol, Lahore — <em>Dec 2024 – Jul 2025</em>
+              <a href="https://xconsol.com/" className="hover:text-blue-400 underline">Xconsol, Lahore</a>— <em>Dec 2024 – Present</em>
             </li>
             <li>
               <strong>Laravel Developer</strong><br />
-              BF-Tech, Lahore — <em>Dec 2021 – Apr 2024</em>
+              <a href="https://www.bftech.io/en-us/" className="hover:text-blue-400 underline">BF-Tech, Lahore</a> — <em>Dec 2021 – Apr 2024</em>
             </li>
           </ul>
         </section>
 
         <section className="mb-6">
           <h2 className="text-xl font-semibold border-b border-gray-700 pb-1 mb-2">Internships</h2>
-          <p><strong>Laravel Intern</strong> — BF-Tech, Lahore (Jan 2021 – Nov 2021)</p>
+          <p><strong>Laravel Intern</strong> — <a href="https://www.bftech.io/en-us/">BF-Tech, Lahore</a> (Jan 2021 – Nov 2021)</p>
         </section>
 
         <section className="mb-6">
@@ -92,8 +92,8 @@ export default function ResumePage() {
             <li><strong>Medicine Donation System</strong> — Laravel 8, HTML, CSS, Bootstrap, JS</li>
             <li><strong>Tollplaza</strong> — PHP, HTML, CSS, Bootstrap, JS</li>
             <li><strong>Blood Donation System</strong> — PHP, HTML, CSS, Bootstrap</li>
-            <li><strong>Jobskills (Beyond Future Tech)</strong> — <a href="https://www.jobskills.sa" className="text-blue-400 underline">jobskills.sa</a></li>
-            <li><strong>My Portfolio</strong> — Node.js, Next.js, TypeScript — <a href="https://hamayounbhatti.vercel.app" className="text-blue-400 underline">View</a></li>
+            <li><strong>Jobskills (Beyond Future Tech)</strong> — <a href="https://www.jobskills.sa" className="hover:text-blue-400 underline">jobskills.sa</a></li>
+            <li><strong>My Portfolio</strong> — Node.js, Next.js, TypeScript — <a href="https://hamayounbhatti.vercel.app" className="hover:text-blue-400 underline">View</a></li>
           </ul>
         </section>
 
