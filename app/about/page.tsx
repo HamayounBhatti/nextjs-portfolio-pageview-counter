@@ -43,7 +43,7 @@ export default function Example() {
       <ul className="ml-8">
         <li><strong>Name:</strong> Hamayoun Bhatti</li>
         <li><strong>Date of Birth:</strong> May 10, 1998</li>
-        <li><strong>Address:</strong> Township Lahore</li>
+        <li><strong>Address:</strong> House Number 529 Sector 2 Block D1, Township, Lahore, Pakistan</li>
         <li><strong>Zip Code:</strong> 54000</li>
         <li>
           <strong>Email:</strong>  
