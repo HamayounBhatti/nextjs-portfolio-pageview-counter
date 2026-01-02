@@ -54,7 +54,7 @@ export default function Example() {
         <li>
           <strong>Phone:</strong> 
           <a href="tel:+923077529404" className="text-blue-400 hover:underline">
-            +92-339-4111529
+            +92-307-7529404
           </a>
         </li>
       </ul>
