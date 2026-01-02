@@ -11,15 +11,15 @@ export default function Example() {
     <Navigation />
     <div className="px-6 pt-20 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
       <div className="mx-auto lg:mx-0">
-        <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
+        <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl mb-8">
           About Me
         </h2>
         <div className="flex flex-col items-center justify-center min-h-screen space-y-6 lg:flex-row lg:space-y-0 lg:space-x-6">
   {/* Image Section */}
   <img
-    src="/hamayoun_about.png"
+    src="/hamayoun_about_2.png"
     alt="Hamayoun Bhatti"
-    className="w-[520px] h-[650px] rounded-full shadow-lg"
+    className="w-[520px] h-[750px] rounded-full shadow-lg"
   />
 
   {/* Content Section */}
