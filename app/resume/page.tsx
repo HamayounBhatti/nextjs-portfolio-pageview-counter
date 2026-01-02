@@ -75,7 +75,7 @@ export default function ResumePage() {
 
         <section className="mb-6">
           <h2 className="text-xl font-semibold border-b border-gray-700 pb-1 mb-2">Internships</h2>
-          <p><strong>Laravel Intern</strong> — <a href="https://www.bftech.io/en-us/">BF-Tech, Lahore</a> (Jan 2021 – Nov 2021)</p>
+          <p><strong>Laravel Intern</strong> — <a href="https://www.bftech.io/en-us/" className="hover:text-blue-400 underline">BF-Tech, Lahore</a> (Jan 2021 – Nov 2021)</p>
         </section>
 
         <section className="mb-6">
@@ -89,11 +89,13 @@ export default function ResumePage() {
         <section className="mb-6">
           <h2 className="text-xl font-semibold border-b border-gray-700 pb-1 mb-2">Projects</h2>
           <ul className="list-disc pl-5 text-sm space-y-2">
-            <li><strong>Medicine Donation System</strong> — Laravel 8, HTML, CSS, Bootstrap, JS</li>
+            <li><strong>Medicine Donation System (Final Year Project) </strong> — Laravel, HTML, CSS, Bootstrap, Javascript, jQuery</li>
             <li><strong>Tollplaza</strong> — PHP, HTML, CSS, Bootstrap, JS</li>
             <li><strong>Blood Donation System</strong> — PHP, HTML, CSS, Bootstrap</li>
-            <li><strong>Jobskills (Beyond Future Tech)</strong> — <a href="https://www.jobskills.sa" className="hover:text-blue-400 underline">jobskills.sa</a></li>
+            <li><strong>Jobskills <a href="https://www.bftech.io/en-us/" className="hover:text-blue-400 underline"> (Beyond Future Technology) </a></strong> — <a href="https://www.jobskills.sa" className="hover:text-blue-400 underline">jobskills.sa</a></li>
             <li><strong>My Portfolio</strong> — Node.js, Next.js, TypeScript — <a href="https://hamayounbhatti.vercel.app" className="hover:text-blue-400 underline">View</a></li>
+            <li><strong>Asaan FBR <a href="https://xconsol.com/" className="hover:text-blue-400 underline"> (Xconsol, Lahore) </a></strong> — HTML, CSS — <a href="https://asaanfbr.com/" className="hover:text-blue-400 underline">View</a></li>
+            <li><strong>Urbansole Claim Utility <a href="https://xconsol.com/" className="hover:text-blue-400 underline"> (Xconsol, Lahore) </a></strong> — Laravel, HTML, CSS, Bootstrap, Javascript, jQuery </li>
           </ul>
         </section>
 
